@@ -1,0 +1,148 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+
+.contacts {
+    padding-top: calc(11.3rem + 90px);
+    @include break-992{
+        padding-top: 120px;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        .box {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            width: 100%;
+            @media(max-width:700px) {
+                flex-direction: column;
+            }
+
+            iframe {
+                border-radius: 22px;
+                @include break-992 {
+                    min-height: 13rem;
+                }
+            }
+            
+            &.box1 {
+                margin-bottom: 120px;
+                @include break-992{
+                    margin-bottom: 60px;
+                }
+            }
+            .left {
+                margin-right: 65px;
+                @media(max-width:700px) {
+                    margin-right: 65px;
+                    margin-bottom: 30px;
+                }
+                .city {
+                    color: #1F1F29;
+                    font-size: 32px;
+                    font-weight: 600;
+                    margin-bottom: 38px;
+                    
+                }
+                .col {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    width: 100%;
+                    &:not(:last-child) {
+                        margin-bottom: 30px;
+                    }
+                    .title {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #000000;
+                        margin-bottom: 10px;
+                    }
+    
+                    .scheduleBlock {
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                        a {
+                            position: relative;
+                            &:hover {
+                                span {
+                                    color: #5A6DB4;
+                                }
+                            }
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                top: -7px;
+                                left: -7px;
+                                bottom: -7px;
+                                right: -7px;
+                            }
+                            span {
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: 400;
+                                @include transition;
+                            }
+                        }
+                        div{
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            justify-content: flex-start;
+                            &:not(:last-child) {
+                                margin-bottom: 10px;
+                            }
+                            p{
+                                color: #000000;
+                                font-size: 18px;
+                                &:nth-child(1) {
+                                    font-weight: 400;
+                                    width: calc(2.7rem + 38px);
+                                }
+                                &:nth-child(2) {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+             }
+
+            
+        }
+         
+    }
+    h2 {
+        color: #5A6DB4;
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 130px;
+        @include break-992 {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.team {
+    padding-top: 0 ;
+
+}
+
+.form {
+    @include break-992 {
+        margin-bottom: 60px !important;
+    }
+}
+
+.tabs {
+    padding: 60px 0 120px !important;
+    @include break-992 {
+        padding: 60px 0 120px !important;
+    }
+}

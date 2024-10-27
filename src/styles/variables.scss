@@ -1,0 +1,84 @@
+$Manrope: 'Manrope';
+$Ubuntu: 'Ubuntu';
+$Ukr: 'e-Ukraine';
+$UbuntuNoSerif: 'Ubuntu-no-serif';
+
+
+.ubuntu{
+  font-family: $Ubuntu;
+}
+
+.Manrope{
+  font-family: $Ubuntu;
+}
+
+.ukr{
+  font-family: $Ukr;
+}
+
+$dark: #000;
+$wh: #fff;
+$blue: #5A6DB4;
+
+
+
+.flex {
+  display: flex;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.align-start{
+  align-items: flex-start;
+}
+
+.align-end{
+  align-items: flex-end;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.dark {
+  color: $dark;
+}
+
+.white{
+  color: $wh;
+}
+
+.border-none {
+  border: none;
+}
+
+.width-f{
+  width: 100%;
+}
+
+.mr-0{
+  margin-right: 0;
+}
+
+.align-end {
+  align-self: flex-end;
+}

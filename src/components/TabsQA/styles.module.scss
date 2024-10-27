@@ -1,0 +1,128 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.TabsQa {
+    background: #F8F9FA;
+    padding: 60px 0 120px;
+    @media (max-width:992px) {
+        padding: 60px 0 60px;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        h3 {
+            @include fontChar(#1F1F29, 32px, 600);
+            margin-bottom: 60px;
+            width: 100%;
+            max-width: 19rem;
+            @include break-650 {
+                font-size: 24px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .tabsSection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
+            gap: 30px;
+            width: 100%;
+            align-items: start;
+            @media (max-width:992px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 0;
+            }
+            .faqItem {
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                @include transition;
+                border-radius: 12px;
+                background: #FFF;
+               justify-content: center;
+               @media (max-width:1130px) {
+                min-height: 5rem;
+               }
+               @include break-992 {
+                min-height: initial;
+               }
+               cursor: pointer;
+               @include break-992 {
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+               }
+                &.open {
+                    background: #F4F4F4;
+                    padding-bottom: 45px;
+                    .faqQuestion {
+                        @media (max-width:992px) {
+                            padding: 17px 24px 28px 17px;
+                        }
+                        padding: 15px 15px 13px 15px;
+                        svg{
+                            @include transition;
+                            transform: rotate(45deg);
+                            path{
+                                fill: #636D79;
+                            }
+                        }
+                    }
+
+                }
+                .faqQuestion {
+                    border: none;
+                    padding: 15px 15px 15px 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    text-align: left;
+                    cursor: pointer;
+                    height: 100%;
+                    span {
+                        @include fontChar(#1F1F29, 16px, 700);
+                        line-height: 1.2;
+                    }
+                    
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                        @include transition;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        flex: 0 0 1.5rem;
+                        margin-left: 2rem;
+                        position: relative;
+                        top: 4px;
+                        path {
+                            @include transition;
+                        }
+                    }
+                    @media (max-width:992px) {
+                        padding: 17px 24px 17px 17px;
+                    }
+                }
+                .faqAnswer {
+                    color: rgba(31, 31, 41, 0.60);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.3;
+                    padding: 0 15px;
+                    transition: opacity .3s ease;
+                    @media (max-width:992px) {
+                        padding: 0 17px;
+                    }
+                }
+            }
+        }
+    }
+}

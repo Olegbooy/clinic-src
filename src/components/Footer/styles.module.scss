@@ -1,0 +1,252 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.footer {
+    background: linear-gradient(324deg, #685EDE 0%, #33406C 100%);
+    padding: 130px 0 26px;
+    @include break-992{
+        padding: 100px 0 40px;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        @include break-992{
+            flex-direction: column;
+        }
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            &.col1 {
+                max-width: 15rem;
+                margin-right: 50px;
+                @include break-992{
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+                img {
+                    margin-bottom: 45px;
+                    width: 8.5rem;
+                    height: fit-content;
+                    @include break-992{
+                        margin-bottom: 20px;
+                    }
+                }
+                p{
+                    @include fontChar($wh, 16px, 400);
+                    margin-bottom: 27px;
+                    line-height: 1.4;
+                }
+                .socialLinks {
+                    display: flex;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &:not(:last-child) {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+            &.col2,
+            &.col3 {
+                
+                p {
+                    @include fontChar($wh, 16px, 500);
+                    margin-bottom: 1rem;
+                }
+                nav {
+                    a {
+                        &:not(:last-child) {
+                            margin-bottom: 10px;
+                        }
+                        span {
+                            color: rgba(255, 255, 255, 0.40);
+                            font-size: 14px;
+                            font-weight: 400;
+                            @include transition
+                        }
+
+                        &:hover {
+                            span {
+                                color: $wh;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.col4 {
+                @include break-992{
+                    order: 2;
+                    margin-bottom: 40px;
+                }
+                .top {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    width: 100%;
+                    .title {
+                        @include fontChar($wh, 18px, 700);
+                        margin-bottom: 10px;
+                    }
+
+                    .scheduleBlock {
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                        div{
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            justify-content: flex-start;
+                            &:not(:last-child) {
+                                margin-bottom: 10px;
+                            }
+                            p{
+                                color: $wh;
+                                font-size: 18px;
+                                &:nth-child(1) {
+                                    font-weight: 400;
+                                    width: calc(2.7rem + 38px);
+                                }
+                                &:nth-child(2) {
+                                    font-weight: 700;
+                                }
+                            }
+                            .stationary {
+                                width: 100% !important;
+                                font-weight: 700 !important;
+                                max-width: 10rem;
+                            }
+                        }
+                    }
+                }
+
+                .bottom {
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+                    @include break-992{
+                        display: none;
+                    }
+                    p{
+                        color: rgba(255, 255, 255, 0.50);
+                        font-size: 16px;
+                        font-weight: 300;
+                        margin-bottom: 10px;
+
+                    }
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                       
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            padding: 9px 25px 9px 17.5px;
+                            border-radius: 16.67px;
+                            background: rgba(36, 41, 48, 0.40);
+                            min-width: 8.3rem;
+                            @include transition;
+                            &:nth-child(1) {
+                                margin-bottom: 10px;
+                            }
+                            svg {
+                                margin-right: 12.5px;
+                            }
+                            span {
+                                @include fontChar($wh, 16px, 400);
+                                @include transition;
+                            }
+                            &:hover {
+                                background: $wh;
+                                span {
+                                    color: #685EDE;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.col2 {
+                @include break-992{
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .colsWrapper {
+            display: flex;
+            width: 100%;
+            align-items: flex-start;
+            justify-content: space-between;
+            @include break-992{
+                order: 3;
+            }
+        }
+    }
+
+    .containerPolicy {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 90px;
+        @media (max-width:670px) {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+        }
+        @include break-992{
+            margin-top: 20px;
+        }
+        p, a{
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 13px;
+            font-weight: 400;
+        }
+        a {
+            border-bottom: 0.3px solid rgba(255, 255, 255, 0.4);
+            width: fit-content;
+            align-self: flex-end;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            justify-content: flex-end;
+            @media (max-width:670px) {
+                justify-content: flex-start;
+                margin-bottom: 80px;
+            }
+            p, a{
+                text-align: end;
+                @media (max-width:670px) {
+                    text-align: start;
+                }
+                @include break-992 {
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

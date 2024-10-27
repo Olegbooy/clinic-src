@@ -1,0 +1,14 @@
+.headroom {
+   z-index: 2000 !important;
+   &.headroom--unpinned {
+    position: fixed !important;
+    transform: translateY(-100%) !important;
+    top: initial;
+    left: initial;
+    right: initial;
+  }
+  &.headroom--pinned {
+    transform: translateY(0) !important;
+  }
+}
+

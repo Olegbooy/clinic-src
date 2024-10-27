@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.button {
+    color: $wh;
+    font-size: 15px;
+    padding: 4px 60px;
+    border-radius: 100px;
+    background: #5A6DB4;
+    border: none;
+    cursor: pointer;
+    @include transition;
+    span {
+        @include transition;
+    }
+    p{
+        line-height: 50px;
+    }
+
+    span {
+        line-height: 50px;
+    }
+
+    svg path{
+        @include transition;
+    }
+}

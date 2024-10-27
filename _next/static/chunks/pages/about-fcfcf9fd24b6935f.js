@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[521],{5401:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/about",function(){return _(4283)}])},4283:function(n,u,_){"use strict";_.r(u);var t=_(5893);u.default=()=>(0,t.jsx)("div",{children:"залупка"})}},function(n){n.O(0,[888,774,179],function(){return n(n.s=5401)}),_N_E=n.O()}]);

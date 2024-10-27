@@ -1,0 +1,199 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.form {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 120px;
+    width: 100%;
+  
+    text-align: center;
+  
+    .container {
+      padding: 0;
+      border-radius: 22px;
+      justify-content: center;
+      background: linear-gradient(324deg, #685EDE 0%, #33406C 100%);
+      color: #5a6db4;
+      padding: 60px;
+      overflow: hidden;
+      position: relative;
+
+
+
+      @media (max-width:650px) {
+        padding: 20px;
+        border-radius: 12px;
+      }
+
+  
+      display: flex;
+      .lines{
+        width: 100%;
+        height: 100%;
+        background: url('../../../public/images/view/lines.svg') no-repeat center / cover;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: -1rem;
+        display: block;
+        max-width: 100%;
+        @include break-992 {
+            transform: scale(2);
+            left: initial;
+            bottom: 25%;
+            width: 9rem;
+            right: 9%;
+            height: 26rem;
+            top: initial;
+            background: url('../../../public/images/view/waves.svg') no-repeat center / cover;
+        }
+    }
+    }
+    .left {
+      width: 100%;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &Top {
+        text-align: left;
+      
+        @media (min-width:900px) {
+          width: 100%;
+          max-width: 14rem;
+        }  
+        &Title {
+          color: #fff;
+  
+          /* heading-style/h1 */
+          
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 1.2; 
+          @include break-992 {
+            font-size: 32px;
+          }
+        }
+        &Description {
+          margin-top: 10px;
+          color: #fff;
+          @media (min-width:900px) {
+            max-width: 12rem;
+            width: 100%;
+          }          
+          
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @include break-992 {
+            font-size: 18px;
+          }
+        }
+      }
+      &Bottom {
+        color: #fff;
+        
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+        opacity: 0.4;
+        max-width: 338px;
+        text-align: left;
+      }
+    }
+    .right {
+      width: 100%;
+      max-width: 519px;
+      position: relative;
+      z-index: 2;
+      .error {
+        margin-top: -18px;
+        padding-bottom: 20px;
+        text-align: left;
+      }
+      input,
+      textarea {
+        width: 100%;
+        display: block;
+        color: rgba(140, 140, 140, 0.8);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;  
+        display: flex;
+        padding: 27px;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 12px;
+        background: #f0f0f0;
+        border: none;
+        margin-bottom: 20px;
+        max-width: 519px;
+        resize: none;
+        @media (max-width:650px) {
+          font-size: 18px;
+        }
+        &:focus {
+          color: #000;
+        }
+      }
+      textarea {
+        padding: 15px 27px;
+        min-height: 131px;
+      }
+      .submit {
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid #000; 
+        text-align: center;
+        
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 50px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        padding: 4px 60px;
+        width: 100%;
+        color: #ffffff;
+        border-radius: 100px;
+        background: #000;
+        @include transition;
+
+        &:hover {
+          background: $wh;
+          border-color: $wh;
+          color: #000;
+        }
+      }
+      .recaptcha{
+        width: 100%;
+        max-width: 300px;
+        iframe {
+          width: 100%;
+        }
+        @include break-650 {
+          transform: scale(0.7);
+          -webkit-transform: scale(0.7);
+          transform-origin: 0 0;
+          -webkit-transform-origin: 0 0;
+        }
+      }
+    }
+    @media (max-width: 900px) {
+      .container {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .right {
+        margin-top: 30px;
+      }
+    }
+  }

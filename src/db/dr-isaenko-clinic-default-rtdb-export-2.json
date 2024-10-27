@@ -1,0 +1,976 @@
+[
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychiatrist",
+      "psychotherapist",
+      "psychologist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 30
+    },
+    "id": 0,
+    "imageUrl": "/images/team/doc1.png",
+    "name": "team:name:0",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 45,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 4000
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:1",
+        "price": 3200
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 4000
+      }
+    ],
+    "speciality": "team:special:0"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "neurologist",
+      "neurophysiologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 34
+    },
+    "id": 1,
+    "imageUrl": "/images/team/doc2.png",
+    "name": "team:name:1",
+    "reels": "https://www.instagram.com/reel/Cyfx_47Njk6/?igsh=bzB6cXNwbmp6MTF2",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1000
+      },
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:3",
+        "price": 600
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 4000
+      }
+    ],
+    "speciality": "team:special:1"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "psychiatrist",
+      "psychotherapist",
+      "sexologist",
+      "narcologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 20
+    },
+    "id": 2,
+    "imageUrl": "/images/team/doc3.png",
+    "name": "team:name:2",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1600
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 2200
+      }
+    ],
+    "speciality": "team:special:2"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "neurologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 25
+    },
+    "id": 3,
+    "imageUrl": "/images/team/doc4.png",
+    "name": "team:name:3",
+    "reels": "https://www.instagram.com/reel/C20HEBQNcZZ/?igsh=Yjl5ZzdpaWpjNjh4",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 45,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 900
+      }
+    ],
+    "speciality": "team:special:3"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychotherapist",
+      "psychologist",
+      "pathopsychologist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 30
+    },
+    "id": 4,
+    "imageUrl": "/images/team/doc5.png",
+    "name": "team:name:4",
+    "reels": "https://www.instagram.com/reel/C7jg-ybtNBv/?igsh=OGN4MmxzenZqM2Fw",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 45,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:5",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:6",
+        "price": 1700
+      }
+    ],
+    "speciality": "team:special:4"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "psychiatrist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 30
+    },
+    "id": 5,
+    "imageUrl": "/images/team/doc6.png",
+    "name": "team:name:5",
+    "reels": "https://www.instagram.com/p/CxPia5eNGrg/?igsh=NWxqNHBlY2hqMGV3",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 40,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 2000
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1500
+      }
+    ],
+    "speciality": "team:special:5"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "psychotherapist",
+      "psychologist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 6
+    },
+    "id": 6,
+    "imageUrl": "/images/team/doc7.png",
+    "name": "team:name:6",
+    "reels": "https://www.instagram.com/reel/C0M0xykNuoi/?igsh=MTljZXMxYjJiM3hleA==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 1700
+      }
+    ],
+    "speciality": "team:special:6"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "psychiatrist",
+      "psychotherapist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 11
+    },
+    "id": 7,
+    "imageUrl": "/images/team/doc8.png",
+    "name": "team:name:7",
+    "reels": "https://www.instagram.com/reel/Cy0Kji_t0pq/?igsh=MWI3cnYzM3ljYmdibA==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1250
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 1450
+      }
+    ],
+    "speciality": "team:special:7"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychiatrist",
+      "psychologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 5
+    },
+    "id": 8,
+    "imageUrl": "/images/team/doc9.png",
+    "name": "team:name:8",
+    "reels": "https://www.instagram.com/reel/Cy0Kji_t0pq/?igsh=MWI3cnYzM3ljYmdibA==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1100
+      }
+    ],
+    "speciality": "team:special:8"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "therapist",
+      "ultrasound"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 15
+    },
+    "id": 9,
+    "imageUrl": "/images/team/doc10.png",
+    "name": "team:name:9",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:8",
+        "price": 1000
+      },
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:9",
+        "price": 1600
+      }
+    ],
+    "speciality": "team:special:9"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychiatrist"
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 3
+    },
+    "id": 10,
+    "imageUrl": "/images/team/doc11.png",
+    "name": "team:name:10",
+    "reels": "https://www.instagram.com/reel/C9FrbtYNBK1/?igsh=eGdpbXhxc216anls",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 45,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1300
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1000
+      }
+    ],
+    "speciality": "team:special:10"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      ""
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 3
+    },
+    "id": 11,
+    "imageUrl": "/images/team/doc12.png",
+    "name": "team:name:11",
+    "reels": "https://www.instagram.com/reel/C9c0rzitAGR/?igsh=MWs5bm5nMDRxaWM2aQ==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 750
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "led": true,
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 750
+      }
+    ],
+    "speciality": "team:special:11"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychiatrist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 15
+    },
+    "id": 12,
+    "imageUrl": "/images/team/doc13.png",
+    "name": "team:name:12",
+    "reels": "https://www.instagram.com/reel/C3LHmhHNLmn/?igsh=MTZwZGZobnFkd2t5eA==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 40,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1200
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 40,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1500
+      }
+    ],
+    "speciality": "team:special:12"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychiatrist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 6
+    },
+    "id": 13,
+    "imageUrl": "/images/team/doc14.png",
+    "name": "team:name:13",
+    "reels": "https://www.instagram.com/reel/C5quKQutFZl/?igsh=MjdkMGh3dDBrZHR2",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1700
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 50,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1700
+      }
+    ],
+    "speciality": "team:special:13"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychiatrist",
+      "psychotherapist",
+      "psychologist",
+      "pathopsychologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 15
+    },
+    "id": 14,
+    "imageUrl": "/images/team/doc16.png",
+    "name": "team:name:14",
+    "reels": "https://www.instagram.com/reel/C8CXEcsteJQ/?igsh=d3A5N20zNHEzemtz",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:15",
+        "price": 1200
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:11",
+        "price": 1500
+      }
+    ],
+    "speciality": "team:special:15"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychiatrist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 5
+    },
+    "id": 15,
+    "imageUrl": "/images/team/doc17.png",
+    "name": "team:name:15",
+    "reels": "https://www.instagram.com/reel/C6HJ12LNrCk/?igsh=MWZpdDJycWxqNmN5ZQ==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1500
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1200
+      },
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:2",
+        "price": 1500
+      }
+    ],
+    "speciality": "team:special:16"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychotherapist",
+      "psychologist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 10
+    },
+    "id": 16,
+    "imageUrl": "/images/team/doc18.png",
+    "name": "team:name:16",
+    "reels": "https://www.instagram.com/reel/C2uLg8gtZHi/?igsh=M2dvY2w3YjFkMGho",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 750
+      }
+    ],
+    "speciality": "team:special:17"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "therapist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 15
+    },
+    "id": 17,
+    "imageUrl": "/images/team/doc19.png",
+    "name": "team:name:17",
+    "reels": "https://www.instagram.com/reel/C14IpRPNHoE/?igsh=MWF2b2xnODJhM3QxMQ==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1000
+      },
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:13",
+        "price": 500
+      }
+    ],
+    "speciality": "team:special:18"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "neurologist"
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 5
+    },
+    "id": 18,
+    "imageUrl": "/images/team/doc21.png",
+    "name": "team:name:18",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 700
+      }
+    ],
+    "speciality": "team:special:20"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychotherapist",
+      "psychologist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 5
+    },
+    "id": 19,
+    "imageUrl": "/images/team/doc22.png",
+    "name": "team:name:19",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 1000
+      }
+    ],
+    "speciality": "team:special:21"
+  },
+  {
+    "appointments": [
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "neurophysiologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 25
+    },
+    "id": 20,
+    "imageUrl": "/images/team/doc23.png",
+    "name": "team:name:20",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 600
+      }
+    ],
+    "speciality": "team:special:22"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "therapist"
+    ],
+    "experience": {
+      "modifier": "",
+      "value": 5
+    },
+    "id": 21,
+    "imageUrl": "/images/team/doc24.png",
+    "name": "team:name:21",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 700
+      }
+    ],
+    "speciality": "team:special:23"
+  },
+  {
+    "appointments": [
+      "online"
+    ],
+    "city": "",
+    "directions": [
+      "psychiatrist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 40
+    },
+    "id": 22,
+    "imageUrl": "/images/team/doc25.png",
+    "name": "team:name:22",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "durationUnit": "",
+        "modifier": "",
+        "name": "team:services:4",
+        "price": 4000
+      }
+    ],
+    "speciality": "team:special:24"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kyiv",
+    "directions": [
+      "psychiatrist",
+      "psychotherapist",
+      "child-psychiatry"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 30
+    },
+    "id": 23,
+    "imageUrl": "/images/team/doc30.png",
+    "name": "team:name:23",
+    "reels": "https://www.instagram.com/reel/C328b55tR_8/?igsh=aXdwdms2b295MGlo",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:0",
+        "price": 1500
+      },
+      null,
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:7",
+        "price": 1200
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 60,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:2",
+        "price": 1500
+      }
+    ],
+    "speciality": "team:special:26"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychiatrist",
+      "narcologist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 18
+    },
+    "id": 24,
+    "imageUrl": "/images/team/doc28.png",
+    "name": "team:name:24",
+    "reels": "",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 2200
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1600
+      }
+    ],
+    "speciality": "team:special:27"
+  },
+  {
+    "appointments": [
+      "online",
+      "offline"
+    ],
+    "city": "kharkiv",
+    "directions": [
+      "psychiatrist"
+    ],
+    "experience": {
+      "modifier": "+",
+      "value": 14
+    },
+    "id": 25,
+    "imageUrl": "/images/team/doc29.png",
+    "name": "team:name:25",
+    "reels": "https://www.instagram.com/reel/C8UfNLMN8ph/?igsh=MXRoMzE3eHV5MmV6dA==",
+    "services": [
+      {
+        "currency": "team:hrn",
+        "duration": 45,
+        "durationUnit": "team:minutes",
+        "modifier": "",
+        "name": "team:services:0",
+        "price": 1700
+      },
+      {
+        "currency": "team:hrn",
+        "duration": 30,
+        "durationUnit": "team:minutes",
+        "modifier": "team:services:16",
+        "name": "team:services:10",
+        "price": 1400
+      }
+    ],
+    "speciality": "team:special:28"
+  }
+]
